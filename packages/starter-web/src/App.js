@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './resources/logo.svg';
 import './App.css';
 
-import Home from "./pages/Home";
+import Routes from "./Routes";
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <Home />
+        <Routes />
       </div>
     );
   }

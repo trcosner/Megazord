@@ -2,6 +2,7 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
   Link
 } from 'react-router-dom'
 
@@ -10,8 +11,10 @@ import Charting from "./pages/Charting";
 
 const Routes = () => (
     <Router>
-        <Route exact path="/" component={Home} />
-        <Route path="/charting" component={Charting} />
+        <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/charting" component={Charting} />
+        </Switch>
     </Router>
 );
 

@@ -1,6 +1,11 @@
 {
+	"name": "megazord",
 	"private": true,
 	"scripts": {
+		"start": "lerna run --parallel start",
+		"build": "lerna run build",
+		"deploy": "lerna run deploy",
+		"test": "lerna run --parallel test",
 		"lerna": "lerna"
 	},
 	"devDependencies": {

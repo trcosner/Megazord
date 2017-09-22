@@ -13,5 +13,9 @@
 	},
 	"workspaces": [
 		"packages/*"
-	]
+	],
+	"prettier": {
+		"singleQuote": true,
+		"tabWidth": 4
+	}
 }

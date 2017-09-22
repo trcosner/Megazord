@@ -4,12 +4,17 @@
   "private": true,
   "dependencies": {
     "mobx": "^3.2.2",
+    "mobx-logger": "^0.6.0",
     "mobx-react": "^4.2.2",
+    "mobx-state-tree": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-loadable": "^4.0.5",
     "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.0.1",
     "rebass": "^1.0.4",
-    "styled-components": "^2.1.2"
+    "styled-components": "^2.1.2",
+    "styled-spinkit": "^0.1.8"
   },
   "devDependencies": {
     "react-scripts": "1.0.13"

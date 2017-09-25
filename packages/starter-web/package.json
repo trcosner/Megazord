@@ -15,7 +15,8 @@
     "rebass": "^1.0.4",
     "rrc": "^0.10.1",
     "styled-components": "^2.1.2",
-    "styled-spinkit": "^0.1.8"
+    "styled-spinkit": "^0.1.8",
+    "victory": "^0.22.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -1,9 +1,11 @@
+import React from 'react';
 import Loadable from 'react-loadable';
-import { RotaingPlaneLoading } from "styled-spinkit";
 
 const asyncComponent = fn => Loadable({
     loader: fn,
-    loading: RotaingPlaneLoading
+    loading: Loading
 });
+
+const Loading = () => <div></div>;
 
 export default asyncComponent;

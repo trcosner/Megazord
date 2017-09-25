@@ -1,0 +1,14 @@
+{
+  "name": "starter-functions",
+  "description": "Cloud Functions for Firebase",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "firebase-admin": "^5.2.1",
+    "firebase-functions": "^0.6.2"
+  }
+}

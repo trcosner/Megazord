@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Toolbar } from 'rebass';
 
-import HeaderLink from "./HeaderLink";
+import HeaderLink from "components/HeaderLink";
 
 const Header = () => (
     <Toolbar>

@@ -11,6 +11,7 @@ const Header = () => (
             Home
         </HeaderLink>
         <HeaderLink to="/charting">Charting</HeaderLink>
+        <HeaderLink to="/forms">Forms</HeaderLink>
         <HeaderLink to="/derp">Derp</HeaderLink>
     </Toolbar>
 );

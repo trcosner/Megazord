@@ -5664,7 +5664,7 @@ react-router-transition@^1.0.1:
     react-motion "^0.5.0"
     react-router-dom "^4.1.1"
 
-react-router@^4.2.0:
+react-router@^4.1.0, react-router@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.2.0.tgz#61f7b3e3770daeb24062dae3eedef1b054155986"
   dependencies:
@@ -5718,7 +5718,7 @@ react-scripts@1.0.13:
   optionalDependencies:
     fsevents "1.1.2"
 
-"react@^15 || ^16", react@^15.6.1:
+"react@^15 || ^16", react@^15.5.4, react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:
@@ -6060,6 +6060,15 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 round-to@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/round-to/-/round-to-2.0.0.tgz#bcef4f2bcafd9480902c2142150b28c897f03e37"
+
+rrc@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/rrc/-/rrc-0.10.1.tgz#5baaa727d124c3e89a2a4063cec6bd75896ad18a"
+  dependencies:
+    prop-types "^15.5.8"
+    react "^15.5.4"
+    react-router "^4.1.0"
+    warning "^3.0.0"
 
 run-async@^2.2.0:
   version "2.3.0"

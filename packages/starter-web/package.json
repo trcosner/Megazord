@@ -13,6 +13,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-transition": "^1.0.1",
     "rebass": "^1.0.4",
+    "rrc": "^0.10.1",
     "styled-components": "^2.1.2",
     "styled-spinkit": "^0.1.8"
   },

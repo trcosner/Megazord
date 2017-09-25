@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Router, Route, Link } from 'react-router-dom';
 import asyncComponent from "utils/asyncComponent";
 import DefaultLayout from "layouts/DefaultLayout";
 
@@ -9,8 +9,8 @@ const Forms    = asyncComponent(() => import("screens/Forms"));
 
 const Derp = () => <Link to="/">Derp</Link>;
 
-const Routes = () => (
-    <Router>
+const Routes = ({ history }) => (
+    <Router history={history}>
         <div>
             <DefaultLayout>
                 <Route exact path="/" component={Home} />

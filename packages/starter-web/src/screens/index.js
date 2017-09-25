@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import asyncComponent from "./utils/asyncComponent";
-import DefaultLayout from "./layouts/DefaultLayout";
+import asyncComponent from "../utils/asyncComponent";
+import DefaultLayout from "../layouts/DefaultLayout";
 
-const Home     = asyncComponent(() => import("./pages/Home"));
-const Charting = asyncComponent(() => import("./pages/Charting"));
+const Home     = asyncComponent(() => import("./Home"));
+const Charting = asyncComponent(() => import("./Charting"));
 
 const Derp = () => <Link to="/">Derp</Link>;
 
